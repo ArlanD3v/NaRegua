@@ -88,6 +88,9 @@ h1{
   z-index: 100;
   background-color: var(--background-color);
 }
+
+/* NAVIGATION */
+
 nav{
   height: var(--header-height);
   display: flex;
@@ -95,6 +98,9 @@ nav{
   justify-content: space-between;
   width: 100%;
 }
+
+/* LOGO */
+
 .logo{
   font: 700 1.31rem 'Poppins', sans-serif;
 }
