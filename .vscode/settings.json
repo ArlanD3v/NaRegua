@@ -1,7 +1,7 @@
 {
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "workbench.colorTheme": "Omni",
+    "workbench.colorTheme": "Bearded Theme Void",
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
