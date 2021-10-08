@@ -1,15 +1,9 @@
 {
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-<<<<<<< HEAD
+
     "workbench.colorTheme": "Bearded Theme Vivid Purple",
-=======
-<<<<<<< HEAD
-    "workbench.colorTheme": "Bearded Theme Black & Ruby",
-=======
-    "workbench.colorTheme": "Bearded Theme Void",
->>>>>>> b87e34d382a9b1a8e9eaeff75544731b8ab70d15
->>>>>>> 2bf442c05edb9f9f7c9df16956d2da5d7193c307
+
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
