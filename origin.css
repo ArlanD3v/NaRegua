@@ -8,6 +8,10 @@ a{
   text-decoration: none;
 }
 
+ul{
+  list-style: none;
+}
+
 img{
   width: 100%;
   height: auto;
@@ -116,6 +120,33 @@ nav{
 nav ul li{
   text-align: center;
 }
+nav ul li a{
+  transition: color 0.5s;
+}
+
+nav ul li a:hover{
+  color: var(--base-color);
+  position: relative;
+
+}
+
+nav ul li a::after{
+  content:"";
+  width: 0%;
+  height: 2px;
+  background: var(--base-color);
+
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
+
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+
+}
 
 nav .menu{
   opacity: 0;
@@ -139,10 +170,15 @@ nav.show .menu{
 }
 nav.show ul.grid{
   gap: 4rem;
+}
 
+nav.show .menu {
+  display: grid;
+  place-content: center;
 }
 
 /* HOME */ 
+
 #home{
   overflow:hidden;
 }
