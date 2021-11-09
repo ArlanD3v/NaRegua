@@ -177,6 +177,26 @@ nav.show .menu {
   place-content: center;
 }
 
+/*Toggle menu*/
+.toggle{
+  color: var(--base-color);
+  font-size: 1.5rem;
+}
+nav .icon-close{
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  right: 1.5rem;
+
+  /*Transição bacana*/
+}
+
+nav.show div.icon-close{
+  visibility: visible;
+  opacity: 1;
+}
+
 /* HOME */ 
 
 #home{
