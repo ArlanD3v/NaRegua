@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*  abre e fecha o menu quando clicar no icone: hamburguer e x */
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
@@ -31,6 +30,3 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
-=======
- 
->>>>>>> aa7788071de3fd39c8e0c3dba4bd0f8696ff4085
